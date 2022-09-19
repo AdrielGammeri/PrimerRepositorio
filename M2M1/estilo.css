@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(to bottom, orangered, orange, rgb(196, 154, 17) ) ;
+}
+#titulo{
+    font-family: 'Cairo', sans-serif;
+    color: rgb(43, 21, 0);
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color:rgb(223, 145, 51);
+}
+img{
+    width: 800px;
+    float: left;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 0 0 15px rgb(99, 52, 15)
+}
+#correct{
+    margin-left: 10px;
+    float: left;
+}
+#info{  
+    border: 3px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    background-color:rgb(211, 184, 151);
+    box-shadow: 0 0 15px rgb(124, 111, 111)
+}
+#Series{  
+    border: 3px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-top: 10px;
+    background-color:rgb(211, 184, 151);
+    box-shadow: 0 0 15px rgb(124, 111, 111)
+}
+#pelis{  
+    border: 3px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-top: 10px;
+    background-color:rgb(211, 184, 151);
+    box-shadow: 0 0 15px rgb(124, 111, 111)
+}
+#sobre{
+    border: 3px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    width: 1050px;
+    margin-top: 10px;
+    background-color:rgb(211, 184, 151);
+    box-shadow: 0 0 15px rgb(124, 111, 111)
+}
+#contacto{  
+    border: 3px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-top: 10px;
+    height: 145px;
+    background-color:rgb(211, 184, 151);
+    box-shadow: 0 0 15px rgb(124, 111, 111)
+}
+h3{
+    font-family: 'Cairo', sans-serif;
+    font-style: italic;
+    color: rgb(51, 27, 0);
+    font-weight: 700;
+    font-size: 20px;
+}
+ul{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    font-size: 15px;
+    column-count: 2;
+    column-gap: 20px;
+}
+p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 16px;
+    font-style: italic;
+}
