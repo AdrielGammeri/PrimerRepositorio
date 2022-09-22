@@ -1,10 +1,10 @@
 body{
-    background: linear-gradient(to bottom, orangered, orange, rgb(196, 154, 17) ) ;
+    background: linear-gradient(to right, orangered, orange, rgb(172, 135, 15) ) ;
 }
 #titulo{
     font-family: 'Cairo', sans-serif;
     color: rgb(43, 21, 0);
-    font-size: 22px;
+    font-size: 26px;
     text-align: center;
     margin-bottom: 10px;
     border-radius: 20px;
@@ -30,6 +30,7 @@ img{
     box-shadow: 0 0 15px rgb(124, 111, 111)
 }
 #Series{  
+    font-size: 26px;
     border: 3px solid black;
     border-radius: 15px;
     padding-left: 10px;
@@ -67,18 +68,24 @@ h3{
     font-family: 'Cairo', sans-serif;
     font-style: italic;
     color: rgb(51, 27, 0);
-    font-weight: 700;
+    font-weight: 800;
     font-size: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+    text-decoration: underline;
+    width: 200px;
 }
 ul{
+    text-align: auto;
     font-family: 'Indie Flower', cursive;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 18px;
     column-count: 2;
     column-gap: 20px;
 }
 p{
     font-family: 'Indie Flower', cursive;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 18px;
     font-style: italic;
 }
