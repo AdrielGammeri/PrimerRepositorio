@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <script>
+      		const km = parseInt(prompt('Ingrese la cantidad de Kilometros a recorrer:', ''));
+            if(km>0 && km<=999){
+                document.write('Usted debe de ir a pie')
+            }
+            else if(km>1000 && km<=9999){
+                document.write('Usted debe de ir en bicicleta')
+            }
+            else if(km>10000 && km<=29999){
+                document.write('Usted debe de tomarce un colectivo')
+            }
+            else if(km>30000 && km<=99999){
+                document.write('Usted debe de ir en auto')
+            }
+            else if(km>1000000){
+                document.write('Usted debe tomar un avion')
+            }
+    </script>
+</body>
+</html>
