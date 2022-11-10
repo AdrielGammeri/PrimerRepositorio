@@ -1,0 +1,33 @@
+Algoritmo Ejercicio32
+	Definir Edad, Total, OPP Como Real
+Repetir
+	Limpiar Pantalla
+	 Escribir " Seleccione su sexo: "
+	 Escribir " 1 - Hombre"
+	 Escribir " 2 - Mujer"
+	 Leer OPP
+ Hasta Que OPP>0 y OPP<3
+	  Segun OPP Hacer
+		 1:
+			 Escribir "Ingrese su edad"
+			 Leer Edad
+			  Si Edad>=0 y Edad <=120
+			    Total=((210-Edad)/10)
+			    Escribir "La cantidad de latidos es de: ", Total
+		      Sino 
+			    Escribir "La edad maxima es de 120 años"
+		      FinSi
+		 
+		 2:
+			 Escribir "Ingrese su edad"
+			 Leer Edad
+			  Si Edad>=0 y Edad <=120
+			 Total=((220-Edad)/10)
+			 Escribir "La cantidad de latidos es de: ", Total
+		 Sino 
+			 Escribir "La edad maxima es de 120 años"
+		 FinSi
+		 De Otro Modo:
+			 
+	 Fin Segun
+FinAlgoritmo

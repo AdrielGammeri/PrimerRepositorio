@@ -1,0 +1,24 @@
+Algoritmo Ejercicio22
+	Definir NumAzar, Descuento2, Descuento1, Total Como Real
+	
+	Escribir " Ingrese el total de la compra para obtener su Descuento "
+	Leer Total
+	SI Total>0
+		Escribir " Elija un numero al azar del 0 al 100 "
+		Leer NumAzar
+		Si NumAzar>=0 y NumAzar<=100
+			Si NumAzar<74
+			Descuento1=((Total-(Total*15)/100))
+			Escribir " Su total a pagar es de: $ ", Descuento1
+		SiNo
+			Descuento2=((Total-(Total*20)/100))
+			Escribir " Su total a pagar es de: $ ", Descuento2
+		FinSi
+	Sino 
+		Escribir "Su Numero debe estar entre 0 y 100"
+	FinSi
+	
+	SiNo
+		Escribir "Su compra debe de ser mayor a 0 "
+	FinSi
+FinAlgoritmo

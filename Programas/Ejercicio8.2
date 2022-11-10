@@ -1,0 +1,25 @@
+Algoritmo Ejercicio82
+	Definir Precio, Cantidad, Descuento, Total Como Real
+	
+    Escribir " Ingrse la cantidad de computadoras quiere comprar "
+	Leer Cantidad
+Si Cantidad>0
+	Si  Cantidad<5
+		Total=Cantidad*11000
+		Descuento=Total-((Total*10)/100)
+		Escribir " El total de la compra es de: $ " , Descuento
+	Finsi
+	Si Cantidad>=5 y Cantidad<10
+			Total=Cantidad*11000
+			Descuento=Total-((Total*20)/100)
+			Escribir " El total de la compra es de: $ " , Descuento
+	FinSi
+	Si Cantidad>=10
+			Total=Cantidad*11000
+			Descuento=Total-((Total*40)/100)
+			Escribir " El total de la compra es de: $ " , Descuento
+     Finsi
+ Sino 
+	 Escribir " La compra minima es de 1 computadora "
+Finsi
+FinAlgoritmo

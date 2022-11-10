@@ -1,0 +1,35 @@
+Algoritmo Ejercicio112
+	Definir Precio, Marca, Descuento, Total, IVA Como Real
+	Repetir
+	Escribir " Ingrese el Precio del estereo "
+	Leer Precio
+Hasta Que Precio>=0
+Escribir " ¿ La marca del estereo es NOSY ? "
+Escribir " 1- SI "
+Escribir " 2- NO "
+Leer Marca
+IVA=(Precio*21)/100
+Segun Marca Hacer
+	1:
+		Si Precio<2000
+			Descuento=(Precio-(Precio*5/100))
+			Total=(Descuento+IVA)
+			Escribir " El total de la cuenta es de: $ ", Total
+		SiNo
+			Descuento=(Precio-(Precio*15/100))
+			Total=(Descuento+IVA)
+			Escribir " El total de la cuenta es de: $ ", Total
+		FinSi
+	2:
+		Si Precio<2000
+            Total=Precio+IVA
+			Escribir " El total de la cuenta es de: $ ", Total
+		SiNo
+			Descuento=(Precio-(Precio*10/100))
+			Total=(Descuento+IVA)
+			Escribir " El total de la cuenta es de: $ ", Total
+		FinSi
+	De Otro Modo:
+Fin Segun
+
+FinAlgoritmo
