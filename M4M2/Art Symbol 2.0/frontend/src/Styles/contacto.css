@@ -1,0 +1,83 @@
+.ContCont{
+    display: flex;
+    justify-content: center;
+}
+.contact_form{  
+    width: 500px; 
+    height: 850px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgb(198,198,198); 
+    border: 1px solid rgb(111,111,111);
+ }
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border: 1px solid rgb(111,111,111);
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  textarea{
+    background-color: #ffffff; 
+    width: 405px; 
+    height: 60px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border: 1px solid rgb(111,111,111);
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  label{
+    display: block; 
+    float: center;  
+  }
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: rgb(98,98,98);
+    border: 1px solid rgb(90, 90, 90);
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 405px;   
+    cursor: pointer;
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+  }
+
+  button p{
+    color: rgb(255, 255, 255); 
+  }
+  span{
+    color: #000000; 
+  }
+  .H1C{
+    font-size: 30px;  
+    margin-top: 20px;
+    margin-left: 60px;
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #000000;
+  }
+  .PC{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  .Enviar{
+    margin-top: 10px;
+  }

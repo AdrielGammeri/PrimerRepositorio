@@ -1,4 +1,4 @@
-.holder{
+/* .holder{
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -161,8 +161,8 @@ body{
 .btn-info{
     background-color: rgb(245, 129, 116);
     border: 1px solid rgb(207, 105, 96);
-}
-.Ft{
+} */
+/* .Ft{
     width: 35px;
 }
 .Contenedor_Redes{
@@ -188,7 +188,7 @@ body{
 }
 .tw{
 display: flex;
-}
+} */
 .img-fluid{
     width: 300px;
 }
@@ -218,7 +218,7 @@ display: flex;
     margin-left: 10px;
     margin-right: 10px;
 }
-.Nosotros{
+/* .Nosotros{
     display: block;
     justify-content: center;
     text-align: center;
@@ -236,8 +236,8 @@ display: flex;
     text-align: center;
     margin-top: 70px;
     margin-bottom: 80px;
-}
-.H2n{
+} */
+/* .H2n{
     font-size: 45px;
     font-style: italic;
     font-style: line;
@@ -247,8 +247,8 @@ display: flex;
     margin-right: 100px;
     margin-left: 100px;
     align-content: center;
-}
-.ContCont{
+} */
+/* .ContCont{
     display: flex;
     justify-content: center;
 }
@@ -326,8 +326,8 @@ display: flex;
   .PC{
     font-size: 14px; 
     color: #0e0e0e; 
-  }
-  ::-webkit-input-placeholder {
+  } */
+  /* ::-webkit-input-placeholder {
    color: #a8a8a8;
   }
   ::-webkit-textarea-placeholder {
@@ -340,7 +340,7 @@ display: flex;
   .formulario textarea:focus{
     outline:0;
     border: 1px solid #97d848;
-  }
-  .Enviar{
+  } */
+  /* .Enviar{
     margin-top: 10px;
-  }
+  } */
