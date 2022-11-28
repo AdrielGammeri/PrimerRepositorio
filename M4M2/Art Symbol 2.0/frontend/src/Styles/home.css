@@ -3,6 +3,7 @@
     justify-content: center;
 }
 .carousel-inner{
+    margin-left: 353px;
     margin-top: 20px;
     border-radius: 15px;
     width: 1200px;
@@ -28,4 +29,13 @@
     font-size: 52px;
     font-family: 'Josefin Slab', serif;
     font-weight: 30000;
+}
+p{
+    text-align:justify;
+}
+.carousel-indicators{
+    height: 20px;
+}
+.carousel-indicators.button{
+    height: 30px;
 }
