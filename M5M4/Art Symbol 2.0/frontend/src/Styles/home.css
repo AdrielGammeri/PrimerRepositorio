@@ -1,0 +1,41 @@
+.Cont_Prin{
+    display: flex;
+    justify-content: center;
+}
+.carousel-inner{
+    margin-left: 353px;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 1200px;
+    height: 330px;
+}
+.carousel_slide{
+    display: flex;
+    justify-content: center;
+}
+.Cont_Img{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.Descrip{
+    width: 1200px;
+    display: flex block;
+    align-content: center;
+    margin-bottom: 25px;
+}
+.Descrip h2{
+    color: black;
+    font-size: 52px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 30000;
+}
+p{
+    text-align:justify;
+}
+.carousel-indicators{
+    height: 20px;
+}
+.carousel-indicators.button{
+    height: 30px;
+}

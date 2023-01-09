@@ -1,0 +1,30 @@
+.Nosotros{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.Historia{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.Objetivo{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.H2n{
+    font-size: 45px;
+    font-style: italic;
+    font-style: line;
+    font-family: 'Josefin Slab', serif;
+}
+.Pnos{
+    margin-right: 100px;
+    margin-left: 100px;
+    align-content: center;
+}

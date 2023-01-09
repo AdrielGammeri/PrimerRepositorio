@@ -25,24 +25,24 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-//forma de seleccionar
-pool.query('select * from empleados').then(function(resultados){
-  console.log(resultados)
-});
-
-//añadir
-// var obj = {
-//   nombre: 'Adriel',
-//   apellido: 'Gammeri',
-//   trabajo: 'Electricista',
-//   edad: '22',
-//   salario:'100000',
-//   mail:'adrielgammeri@utn.com'
-// }
-
-// pool.query('insert into empleados set ?',[obj]).then(function(resultados){
+// //forma de seleccionar
+// pool.query('select * from empleados').then(function(resultados){
 //   console.log(resultados)
 // });
+
+//añadir
+var obj = {
+  nombre: 'Adriel',
+  apellido: 'Gammeri',
+  trabajo: 'Electricista',
+  edad: '22',
+  salario:'100000',
+  mail:'adrielgammeri@utn.com'
+}
+
+pool.query('insert into empleados set ?',[obj]).then(function(resultados){
+  console.log(resultados)
+});
 
 //update
 // var id = 3;

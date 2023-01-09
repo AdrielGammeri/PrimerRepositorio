@@ -1,0 +1,25 @@
+<div class="holder">
+    <div class="til">
+        <h1 class="TiL" style="text-align: center;">Ingrese como administrador</h1>
+    </div>
+    <div class="Containar" style="margin-top: 40px;">
+        <div class="row">
+            <form action="/admin/login" method="post">
+                <div class="mb-3-row">
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputUser" placeholder="Usuario" name="usuario">
+                    </div>
+                </div>
+                <div class="mb-3-row">
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" name="password">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+            {{#if error}}
+            <p class="pp" style="margin-top: 40px"> Usuario y/o Contraseña Incorrectos</p>
+            {{/if}}
+        </div>
+    </div>
+</div>
