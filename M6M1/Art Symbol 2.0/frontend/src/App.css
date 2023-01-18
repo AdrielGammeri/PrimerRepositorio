@@ -1,0 +1,123 @@
+.holder{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.Contenedor_flyer{
+  width: 1920px;
+  height: 150px;
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  }
+.flyer{
+  margin-left: 0%;
+  width: 1920px;
+  height: 185px;
+}
+.Pos_logo{
+  position: absolute;
+  margin-top: 0px;
+  margin-right: 370px;
+}
+.logo{
+  margin-top: 20px;
+  width: 80px;
+}
+.Pos_h1{
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  margin-top: 55px;
+  width: 300px;
+}
+h1{
+  color: black;
+  font-size: 1000px;
+  font-family: 'Josefin Slab', serif;
+}
+.Cont_nav{
+  display: block;
+  justify-content: space-evenly;
+  justify-content: center;
+  height: 35px;
+}
+nav{
+  margin-bottom: 0px;
+  height: 35px;
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 35px;
+}
+nav ul li{
+  flex-grow: 1;
+  display: inline-block;
+  align-content: center;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+nav ul li a{
+  transition: background ease-in .2s;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding-left: 7px ;
+  display: block;
+  text-align: center;
+}
+nav ul li a:hover{
+  color: black;
+  background-color: rgb(130,130,130);
+  border: 0.5px solid rgb(94,94,94);
+}
+body{
+  height: 730px;
+  margin-top: 0%;
+  background-color: rgb(196, 189, 189);
+}
+.Ft{
+  width: 35px;
+}
+.Contenedor_Redes{
+  position: absolute;
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 1920px;
+  height: 100px;
+  margin-top: 0%;
+}
+.Pos_footer{
+  margin-top: 100px;
+}
+.Pos_Redes{
+  margin-left: 0%;
+  margin-top: 60px;
+  margin-right: 480px;
+}
+.flyer2{
+  position: static;
+  width: 1920px;
+  height: 162px;
+}
+p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+.tw{
+display: flex;
+}
+.Enlace{
+  margin-top: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: black;
+}

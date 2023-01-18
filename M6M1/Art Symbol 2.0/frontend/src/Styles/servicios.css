@@ -1,0 +1,49 @@
+.Cont_body{
+    display: block;
+    justify-content: center;
+}
+.Cont_B1{
+    margin-top: 15px;
+    width: 1920px;
+    margin-top: 25px;
+    height: 490px;
+    display: inline;
+}
+.Cont_B2{
+    width: 1920px;
+    margin-top: 25px;
+    height: 490px;
+    display: inline;
+}
+.Cont_Img1{
+    margin-top: 10px;
+     margin-left: 10px;
+    width:338px;
+    height: 406px;
+    border: 2px solid rgb(71, 71, 71);
+    margin-bottom: 10px;
+}
+.F1{
+    width: 336px;
+    height: 406px;
+}
+.mb-3{
+    margin-left: 60px;
+    width: 1800px;
+}
+.g-0{
+    margin-top: 30px;
+    height: 430px;
+    border-radius: 0%;
+}
+.card-title{
+    margin-left: 600px;
+    margin-bottom: 20px;
+}
+.card-title2{
+    margin-left: 595px;
+    margin-bottom: 20px;
+}
+.card-text{
+    margin-left: 200px;
+}
