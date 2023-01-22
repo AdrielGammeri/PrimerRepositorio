@@ -1,0 +1,32 @@
+<div class="holder">
+    <div class="til">
+        <h1 class="TiL" style="text-align: center;">Agregue una Novedad</h1>
+    </div>
+    <div class="Containar" style="margin-top: 40px;">
+        <div class="row2">
+            <div class="col-6-offset-3">
+                <form action="/admin/novedades/agregar" method="post">
+                <div class="mb-3-row2">
+                    <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Titulo" name="titulo">
+                     </div>
+                </div>
+                <div class="mb-3-row2">
+                    <div class="form-group">
+                            <textarea type="text" class="form-control" placeholder="SubTitulo" name="subtitulo"></textarea>
+                     </div>
+                </div>
+                <div class="mb-3-row2">
+                    <div class="form-group">
+                            <textarea type="text" class="form-control" placeholder="Cuerpo" name="cuerpo"></textarea>
+                     </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </form>
+                {{#if error}}
+                    <p>{{message}}</p>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</div>
