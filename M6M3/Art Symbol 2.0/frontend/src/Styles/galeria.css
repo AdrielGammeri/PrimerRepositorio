@@ -1,0 +1,50 @@
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+ }
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+   }
+.formulario input:focus{
+     outline:0;
+     border: 1px solid #97d848;
+   }
+.formulario textarea:focus{
+     outline:0;
+     border: 1px solid #97d848;
+   }
+.Cont_Obras1{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Cont_Obras2{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Cont_Obras3{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Cont_Obras4{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-body2{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-mb-3{
+    width: 540px;
+}
+.row{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+

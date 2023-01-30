@@ -1,0 +1,346 @@
+.holder{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.Contenedor_flyer{
+    width: 1920px;
+    height: 150px;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+.flyer{
+    margin-left: 0%;
+    width: 1920px;
+    height: 185px;
+}
+.Pos_logo{
+    position: absolute;
+    margin-top: 0px;
+    margin-right: 370px;
+}
+.logo{
+    margin-top: 20px;
+    width: 60px;
+}
+.Pos_h1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Josefin Slab', serif;
+    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(26, 22, 22),rgb(255, 123, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 30000;
+}
+.Cont_nav{
+    display: block;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+nav{
+    margin-bottom: 0px;
+    height: auto;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+nav ul li{
+    flex-grow: 1;
+    display: inline-block;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav ul li a{
+    transition: background ease-in .2s;
+    border-radius: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(70, 61, 49);
+    text-decoration: none;
+    padding-left: 7px ;
+    display: block;
+    text-align: center;
+}
+ nav ul li a:hover{
+    color: black;
+    background-color: rgb(241, 216, 183);
+    border: 2px solid rgb(182, 163, 137);
+    border-radius: 15px;
+}
+body{
+    height: 730px;
+    margin-top: 0%;
+    background-color: rgb(216, 222, 228);
+}
+.Cont_Prin{
+    display: flex;
+    justify-content: center;
+}
+.carousel-inner{
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 1200px;
+    height: 330px;
+}
+.carousel_slide{
+    display: flex;
+    justify-content: center;
+}
+.Cont_Img{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.Descrip{
+    width: 1200px;
+    display: flex block;
+    align-content: center;
+}
+.Descrip h2{
+    font-size: 52px;
+    font-family: 'Josefin Slab', serif;
+    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(26, 22, 22),rgb(255, 123, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 30000;
+}
+.Cont_body{
+    display: block;
+    justify-content: center;
+}
+.Cont_B1{
+    width: 1920px;
+    margin-top: 25px;
+    height: 490px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Cont_B2{
+    width: 1920px;
+    margin-top: 25px;
+    height: 490px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Cont_Img1{
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(195,234,216), rgb(231,134,118));  
+    width:338px;
+    height:468px ;
+    border: 1px solid salmon;
+}
+.F1{
+    border: 1px solid salmon;
+    margin-top: 3px;
+    margin-left: 3px;
+    border-radius: 15px;
+    width: 330px;
+    height: 410px;
+}
+.card-body{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6px;
+}
+.card-title{
+    margin-top: 12px;
+    margin-left: 8px;
+    font-size: 16px;
+}
+.btn-info{
+    background-color: rgb(245, 129, 116);
+    border: 1px solid rgb(207, 105, 96);
+}
+.Ft{
+    width: 35px;
+}
+.Contenedor_Redes{
+    position: absolute;
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 1920px;
+    height: 100px;
+    margin-top: 0%;
+}
+.Pos_footer{
+    margin-top: 130px;
+}
+.Pos_Redes{
+    margin-left: 0%;
+    margin-top: 60px;
+    margin-right: 480px;
+}
+.flyer2{
+    position: static;
+    width: 1920px;
+    height: 162px;
+}
+.tw{
+display: flex;
+}
+.img-fluid{
+    width: 300px;
+}
+.Cont_Obras1{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Cont_Obras2{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Cont_Obras3{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Cont_Obras4{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-body2{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Nosotros{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.Historia{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.Objetivo{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.H2n{
+    font-size: 45px;
+    font-style: italic;
+    font-style: line;
+    font-family: 'Josefin Slab', serif;
+}
+.Pnos{
+    margin-right: 100px;
+    margin-left: 100px;
+    align-content: center;
+}
+.ContCont{
+    display: flex;
+    justify-content: center;
+}
+.contact_form{  
+    width: 460px; 
+    height: 770px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #f8f4f4; 
+    border: 1px solid rgb(207, 105, 96);
+ }
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border: 1px solid rgb(207, 105, 96);
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border: 1px solid rgb(207, 105, 96);
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  label{
+    display: block; 
+    float: center;  
+  }
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: rgb(245, 129, 116);
+    border: 1px solid rgb(207, 105, 96);
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 405px;   
+    cursor: pointer;
+    display: block;
+    justify-content: center;
+    align-content: center;
+  }
+
+  button p{
+    color: #fff; 
+  }
+  span{
+    color: #000000; 
+  }
+  .H1C{
+    font-size: 39px;  
+    margin-left: 20px;
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #000000;
+  }
+  .PC{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  .Enviar{
+    margin-top: 10px;
+  }
