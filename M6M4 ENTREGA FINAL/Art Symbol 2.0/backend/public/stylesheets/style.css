@@ -1,0 +1,97 @@
+.holder{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.Contenedor_flyer{
+  width: 1920px;
+  height: 150px;
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  }
+.flyer{
+  margin-left: 0%;
+  width: 1920px;
+  height: 185px;
+}
+.Pos_logo{
+  position: absolute;
+  margin-top: 0px;
+  margin-right: 370px;
+}
+.logo{
+  margin-right: 50px;
+  margin-top: 10px;
+  width: 80px;
+}
+.Pos_h1{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+h1{
+  font-size: 60px;
+  font-family: 'Josefin Slab', serif;
+  color: black;
+  font-weight: 30000;
+}
+.Ft{
+    width: 35px;
+}
+.Contenedor_Redes{
+    position: absolute;
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 1920px;
+    height: 100px;
+    margin-top: 0%;
+}
+.Pos_footer{
+    margin-top: 130px;
+}
+.Pos_Redes{
+    margin-left: 0%;
+    margin-top: 60px;
+    margin-right: 480px;
+}
+.flyer2{
+    position: static;
+    width: 1920px;
+    height: 162px;
+}
+.tw{
+display: flex;
+}
+.row{
+  margin-left: 730px;
+  margin-bottom: 203px;
+}
+.mb-3-row{
+  width: 400px;
+  margin-bottom: 55px;
+}
+.col-sm-10{
+  width: 400px;
+}
+.til{
+  margin-top: 100px;
+}
+.row1{
+  display: flex;
+  margin-bottom: 5px;
+}
+.col-7{
+  display: block;
+}
+.form-group{
+  width: 850px;
+}
+.mb-3-row2{
+  width: 850px;
+  margin-bottom: 55px;
+}
+.row2{
+  margin-left: 530px;
+  margin-bottom: 140px;
+}
